@@ -23,7 +23,7 @@ shadowsocks 客户端的作用是连接代理，是必要的，shadowsocks 本�
 #### 终端（Mac 已经内置）
 终端的作用是用于放置我们的 kcptun 插件，kcptun 可以简单的理解为可以用于加速网络的一种通信方式，kcptun 是必要的，因为对于网络提速它效果显著
 
-Mac 中打开终端的方式很简单，在启动台搜索终端即可
+Mac 中打开终端的方式很简单，在启动台搜索 terminal 或终端即可
 
 <p align="center">
   <img alt="Search for terminal" src="./assets/terminal-searach.png">
