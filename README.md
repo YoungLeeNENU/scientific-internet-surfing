@@ -20,24 +20,101 @@ shadowsocks 客户端的作用是连接代理，是必要的，shadowsocks 本�
   <img alt="SS Mac Client" src="./assets/ss-mac-download.png">
 </p>
 
-#### 终端（Mac 已经内置）
-终端的作用是用于放置我们的 kcptun 插件，kcptun 可以简单的理解为可以用于加速网络的一种通信方式，kcptun 是必要的，因为对于网络提速它效果显著
-
-Mac 中打开终端的方式很简单，在启动台搜索 terminal 或终端即可
-
-<p align="center">
-  <img alt="Search for terminal" src="./assets/terminal-searach.png">
-</p>
-
-如果你打开它，它是这个样子的
-
-<p align="center">
-  <img alt="Terminal" src="./assets/terminal.png">
-</p>
-
-不用担心它们的使用方法，在下文的安装过程中，我会介绍具体如何使用以上的东西
-
 ### 安装使用步骤
+
+下载 Shadowsocks 之后，解压安装到 Mac 上，最好放在扩展坞里，方便后面快速找到
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_in_docker.png">
+</p>
+
+打开 Shadowsocks 之后，Mac 的置顶状态和工具栏里会出现这样一个纸飞机图标的东西，点击它，这个就是 Shadowsocks：
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shaodowsocks_open.png">
+</p>
+
+然后这边我们导入配置，选导入服务器 url:
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_import_url_1.png">
+</p>
+
+把配置粘贴进去（配置具体私信我，这里打码了）:
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_import_2.png">
+</p>
+
+然后服务器这里就会出现你刚才导入的配置
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_import_3.png">
+</p>
+
+这里还没完，最后一步需要配置 kcptun，用来加速网络，选择服务器设置
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_import_4.png">
+</p>
+
+然后在插件这里，写 kcptun
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_import_4.png">
+</p>
+
+然后打开插件目录
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_import_5.png">
+</p>
+
+找到 kcptun，
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_import_6.png">
+</p>
+
+然后把这个文件复制到 ~/Library/Application Support/ShadowsocksX-NG/plugins/ 文件夹下，我知道这个可能看不懂，这个文件夹怎么找到呢？
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_import_7.png">
+</p>
+
+在访达中选择前往，然后前往文件夹，按照图片填写路径，进入这个文件夹
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_import_8.png">
+</p>
+
+这个文件夹下如果没有名字叫 plugins 的文件夹的话，就自己创建一个
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_import_9.png">
+</p>
+
+有的话，可以直接进入，或者创建完进入这个文件夹，然后把刚才找到的 kcptun 文件复制到这里即可，这几步大概率会需要你进行授权，正常填写密码授权即可
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_import_10.png">
+</p>
+
+然后在服务器设置里确认刚才的设置
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_complete_1.png">
+</p>
+
+然后打开 Shadowsocks 选择自动模式或者全剧模式，以及刚才的服务器，就可以进行科学上网了
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Shadowsocks_complete_2.png">
+</p>
+
+<p align="center">
+  <img alt="SS Mac Client" src="./assets/Done.png">
+</p>
 
 ## Windows 篇
 ### 知识补齐 - 我们需要什么
